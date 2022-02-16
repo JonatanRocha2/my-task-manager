@@ -1,5 +1,13 @@
-# my-task-manager
+# Task Manager
 
-Olá! Aqui apresento um projeto simples de lista de tarefas. 
+Projeto simples, usando conceitos básicos.
 
-Uso HTML, CSS e JavaScript!
+## O que uso aqui?
+
+ * Tecnologias, como:
+  1. HTML
+  1. CSS
+  1. JavaScript
+ * More
+
+ 
