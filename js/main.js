@@ -9,6 +9,10 @@ function checkTask(taskLi) {
   taskLi.classList.add("done");
 }
 
+function closeTask(taskLi) {
+    taskLi.classList.remove("close");
+}
+
 function createTask(task) {
   const li = document.createElement("li");
   li.setAttribute("class", "task-item");
@@ -21,7 +25,11 @@ function createTask(task) {
 
   imgCheck.onclick = () => {
     checkTask(li);
-  };
+  }
+
+  imgClose.onclick = () => {
+      closeTask(li);
+  }
 
   const p = document.createElement("p");
   p.textContent = task;

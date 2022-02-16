@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 body {
-  background-color: #8647ff;
+  background-color: #ffe347;
   font-family: "Roboto", sans-serif;
 }
 
@@ -49,10 +49,6 @@ h1 {
 .done {
   text-decoration: line-through;
   color: gray;
-}
-
-.done #check {
-  cursor: not-allowed;
 }
 
 .task-item img {
